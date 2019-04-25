@@ -2,47 +2,62 @@
 <html lang="en">
 
 <head>
-
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Gabriel Patrola - Blog</title>
+  <title>Gabriel Patrola - Portfolio</title>
 
-  <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Custom fonts for this template -->
+  <!-- Font Awesome Icons -->
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet">
   <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
 
-  <!-- Custom styles for this template -->
-  <link href="css/clean-blog.min.css" rel="stylesheet">
+  <!-- Plugin CSS -->
+  <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+  <!-- Theme CSS - Includes Bootstrap -->
+  <link href="css/formulario.css" rel="stylesheet">
+  <link href="css/creative.min.css" rel="stylesheet">
 </head>
 
-<body>
+<body id="page-top">
 
-  <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
     <div class="container">
-      <a class="navbar-brand" href="index.html">Blog</a>
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">Gabriel Patrola</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        Menu
-        <i class="fas fa-bars"></i>
+        <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
-       <ul class="navbar-nav ml-auto my-2 my-lg-0">
+        <ul class="navbar-nav ml-auto my-2 my-lg-0">
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="https://gabrielpatrola.github.io/">Voltar para o Inicio</a>
-         </li>
+            <a class="nav-link js-scroll-trigger" href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">Sobre</a>
+          </li>
+           <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/blog/">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#services">Serviços</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#contact">Contato</a>
+          </li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <!-- Page Header -->
+  <!-- Masthead -->
   <header class="masthead">
     <div class="container h-100">
       <div class="row h-100 align-items-center justify-content-center text-center">
@@ -57,120 +72,257 @@
       </div>
     </div>
   </header>
-  
-  <!-- Main Content -->
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8 col-md-10 mx-auto">
-        <div class="post-preview">
-          <a href="post.html">
-            <h2 class="post-title">
-              Man must explore, and this is exploration at its greatest
-            </h2>
-            <h3 class="post-subtitle">
-              Problems look mighty small from 150 miles up
-            </h3>
-          </a>
-          <p class="post-meta">Posted by
-            <a href="#">Start Bootstrap</a>
-            on September 24, 2019</p>
-        </div>
-        <hr>
-        <div class="post-preview">
-          <a href="post.html">
-            <h2 class="post-title">
-              I believe every human has a finite number of heartbeats. I don't intend to waste any of mine.
-            </h2>
-          </a>
-          <p class="post-meta">Posted by
-            <a href="#">Start Bootstrap</a>
-            on September 18, 2019</p>
-        </div>
-        <hr>
-        <div class="post-preview">
-          <a href="post.html">
-            <h2 class="post-title">
-              Science has not yet mastered prophecy
-            </h2>
-            <h3 class="post-subtitle">
-              We predict too much for the next year and yet far too little for the next ten.
-            </h3>
-          </a>
-          <p class="post-meta">Posted by
-            <a href="#">Start Bootstrap</a>
-            on August 24, 2019</p>
-        </div>
-        <hr>
-        <div class="post-preview">
-          <a href="post.html">
-            <h2 class="post-title">
-              Failure is not an option
-            </h2>
-            <h3 class="post-subtitle">
-              Many say exploration is part of our destiny, but it’s actually our duty to future generations.
-            </h3>
-          </a>
-          <p class="post-meta">Posted by
-            <a href="#">Start Bootstrap</a>
-            on July 8, 2019</p>
-        </div>
-        <hr>
-        <!-- Pager -->
-        <div class="clearfix">
-          <a class="btn btn-primary float-right" href="#">Postagens Antigas</a>
+
+  <!-- About Section -->
+  <section class="page-section bg-primary" id="about">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 text-center">
+          <h2 class="text-white mt-0">Tenho o que você precisa!</h2>
+          <hr class="divider light my-4">
+          <p class="text-white mt-0">Entusiasta na área tecnológica, trabalho atualmente com o Desenvolvimento Web, Prototipagem com arduino e outros microcontroladores, e também trabalho com a parte de suporte técnico, tanto no hardware, quanto no software.</p>
+          <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Serviços</a>
         </div>
       </div>
     </div>
-  </div>
+  </section>
 
-  <hr>
-
-  <!-- Footer -->
-  <footer>
+  <!-- Services Section -->
+  <section class="page-section" id="services">
     <div class="container">
+      <h2 class="text-center mt-0">Skills</h2>
+      <hr class="divider my-4">
       <div class="row">
-        <div class="col-lg-8 col-md-10 mx-auto">
-          <ul class="list-inline text-center">
-            <li class="list-inline-item">
-              <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5565981458537" target="_blank">
-                <span class="fa-stack fa-lg">
-                  <i class="fas fa-circle fa-stack-2x"></i>
-                  <i class="fab fa-whatsapp fa-stack-1x fa-inverse"></i>
-                 <a class="d-block" href="https://api.whatsapp.com/send?1=pt_BR&phone=5565981458537" target="_blank">Whatsapp</a>
-                </span>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="mailto:almeidagabrielaugusto@gmail.com" target="_blank">
-                <span class="fa-stack fa-lg">
-                  <i class="fas fa-circle fa-stack-2x"></i>
-                  <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
-                   <a class="d-block" href="mailto:almeidagabrielaugusto@gmail.com" target="_blank">E-mail</a>
-                </span>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="https://github.com/Gabrielpatrola/" target="_blank">
-                <span class="fa-stack fa-lg">
-                  <i class="fas fa-circle fa-stack-2x"></i>
-                    <i class="fab fa-github fa-stack-1x fa-inverse"></i>
-                  <a class="d-block" href="https://github.com/Gabrielpatrola/" target="_blank">GitHub</a>
-                </span>
-              </a>
-            </li>
-             <li class="list-inline-item">
-              <a href="https://twitter.com/gabpatrola" target="_blank">
-                <span class="fa-stack fa-lg">
-                  <i class="fas fa-circle fa-stack-2x"></i>
-                  <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
-                 <a class="d-block" href="https://twitter.com/gabpatrola" target="_blank">Twitter</a>
-                </span>
-              </a>
-            </li>
-          </ul>
-          <p class="copyright text-muted">Copyright &copy; Augustus TI</p>
+        <div class="col-lg-3 col-md-6 text-center">
+          <div class="mt-5">
+            <i class="fas fa-4x faa-bounce animated-hover fa-globe text-primary mb-4"></i>
+            <h3 class="h4 mb-2">Criação de Sites</h3>
+            <p class="text-muted mb-0">Criação de sites leves e profissionais.</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 text-center">
+          <div class="mt-5">
+            <i class="fas fa-4x faa-tada animated-hover fa-microchip text-primary mb-4"></i>
+            <h3 class="h4 mb-2">Arduino e PICs</h3>
+            <p class="text-muted mb-0">Amplo conhecimento em arduino e outros microcontroladores!</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 text-center">
+          <div class="mt-5">
+            <i class="fas fa-4x faa-shake animated-hover fa-laptop-code text-primary mb-4"></i>
+            <h3 class="h4 mb-2">Programação</h3>
+            <p class="text-muted mb-0">Programação em C, C++, Python e Java.</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 text-center">
+          <div class="mt-5">
+            <i class="fas fa-4x faa-pulse animated-hover fa-tools text-primary mb-4"></i>
+            <h3 class="h4 mb-2">Assistência Técnica</h3>
+            <p class="text-muted mb-0">Conserto de computadores e notebooks em geral.</p>
+          </div>
         </div>
       </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio">
+    <div class="container-fluid p-0">
+      <div class="row no-gutters">
+        <div class="col-lg-4 col-sm-6">
+          <a class="portfolio-box" href="img/portfolio/fullsize/1.jpg">
+            <img class="img-fluid" src="img/portfolio/thumbnails/1.jpg" alt="">
+            <div class="portfolio-box-caption">
+              <div class="project-category text-white-50">
+                Arduino e PICs
+              </div>
+              <div class="project-name">
+                Linha de Produção Industrial
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <a class="portfolio-box" href="img/portfolio/fullsize/2.jpg">
+            <img class="img-fluid" src="img/portfolio/thumbnails/2.jpg" alt="">
+            <div class="portfolio-box-caption">
+              <div class="project-category text-white-50">
+                Arduino e PICs
+              </div>
+              <div class="project-name">
+                Maquina de Turing
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <a class="portfolio-box" href="img/portfolio/fullsize/3.jpg">
+            <img class="img-fluid" src="img/portfolio/thumbnails/3.jpg" alt="">
+            <div class="portfolio-box-caption">
+              <div class="project-category text-white-50">
+                Arduino e PICs
+              </div>
+              <div class="project-name">
+                Sistema de refrigeração
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <a class="portfolio-box" href="img/portfolio/fullsize/4.jpg">
+            <img class="img-fluid" src="img/portfolio/thumbnails/4.jpg" alt="">
+            <div class="portfolio-box-caption">
+              <div class="project-category text-white-50">
+                Programação
+              </div>
+              <div class="project-name">
+                Caça Palavras e Labirinto
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <a class="portfolio-box" href="img/portfolio/fullsize/5.jpg">
+            <img class="img-fluid" src="img/portfolio/thumbnails/5.jpg" alt="">
+            <div class="portfolio-box-caption">
+              <div class="project-category text-white-50">
+                Programação
+              </div>
+              <div class="project-name">
+                Menu retro interativo em C
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <a class="portfolio-box" href="img/portfolio/fullsize/6.jpg">
+            <img class="img-fluid" src="img/portfolio/thumbnails/6.jpg" alt="">
+            <div class="portfolio-box-caption p-3">
+              <div class="project-category text-white-50">
+                Sites
+              </div>
+              <div class="project-name">
+                Site do GCE - MT
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action Section -->
+  <section class="page-section bg-dark text-white">
+    <div class="container text-center">
+      <h2 class="mb-4">Publicações e noticiais</h2>
+      <a class="btn btn-light btn-xl" href="/blog/">Acompanhe minhas publicações</a>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="page-section" id="contact">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 text-center">
+          <h2 class="mt-0">Entre em contato!</h2>
+          <hr class="divider my-4">
+          <p class="text-muted mb-5">Pronto para começar seu próximo projeto? Isso é ótimo! Ligue para mim ou envie um e-mail e entrarei em contato o mais breve possível!</p>
+<script type="text/javascript">
+//<![CDATA[
+<!--
+var x="function f(x){var i,o=\"\",ol=x.length,l=ol;while(x.charCodeAt(l/13)!" +
+"=51){try{x+=x;l+=l;}catch(e){}}for(i=l-1;i>=0;i--){o+=x.charAt(i);}return o" +
+".substr(0,ol);}f(\")94,\\\"k771\\\\udnu>9!5%6k771\\\\,530\\\\2c500\\\\420\\" +
+"\\330\\\\VUZ730\\\\720\\\\530\\\\520\\\\320\\\\530\\\\520\\\\120\\\\330\\\\" +
+"710\\\\t\\\\AEJGL710\\\\700\\\\r\\\\500\\\\300\\\\c500\\\\100\\\\310\\\\?9o" +
+"itc>8<62;|{?uj|}771\\\\fxfn()\\\"\\\\$/%oo720\\\\t\\\\730\\\\230\\\\]Q530\\" +
+"\\300\\\\300\\\\720\\\\530\\\\100\\\\600\\\\500\\\\1330\\\\310\\\\630\\\\B6" +
+"00\\\\030\\\\600\\\\610\\\\320\\\\500\\\\400\\\\020\\\\r\\\\r\\\\200\\\\@77" +
+"1\\\\~}2700\\\\(500\\\\c~q;;:&21\\\"\\\\<\\\"\\\\*lb-100\\\\>400\\\\1*&/$,z" +
+"JX[520\\\\NW]ZCV[W220\\\\120\\\\r\\\\710\\\\C_CM^JISHJG300\\\\P@V?>=<uFkD)b" +
+"e}aqb,/.cPyV7euic+?\\\"\\\\!n\\\"\\\\710\\\\ EUYZ+130\\\\430\\\\Z120\\\\700" +
+"\\\\130\\\\400\\\\600\\\\t\\\\Cr\\\\700\\\\500\\\\330\\\\430\\\\600\\\\620\\"+
+"\\t\\\\100\\\\n\\\\020\\\\300\\\\100\\\\8qr~700\\\\g<-;7#tq610\\\\%(* 220\\" +
+"\\n720\\\\w,%&(ef730\\\\,$$[WU630\\\\g700\\\\\\\\\\\\HNB520\\\\@FB_Y320\\\\" +
+"610\\\\r\\\\410\\\\310\\\\n\\\\GtUz330\\\\RJF610\\\\430\\\\?>s@iF'n~r:(3210" +
+"aR771\\\\P5(UzfosjF ]=330\\\\010\\\\020\\\\230\\\\410\\\\YZ+200\\\\430\\\\1" +
+"30\\\\120\\\\700\\\\200\\\\R3S010\\\\430\\\\220\\\\630\\\\I430\\\\220\\\\62" +
+"0\\\\310\\\\r\\\\_BA@771\\\\0100\\\\.700\\\\d{400\\\\gfdy?=2r320\\\\s>?*&*h" +
+"1/!xcba`QbO`500\\\\030\\\\eOXD720\\\\h610\\\\ABQCMr\\\\ZBN520\\\\F{Ty230\\\\"+
+"UKE710\\\\#>=rGhE&a771\\\\q;/210/`Q~W4hmugq|fv.<@_ 300\\\\n\\\\IHEL100\\\\4" +
+"30\\\\420\\\\330\\\\420\\\\030\\\\M2Pt\\\\700\\\\320\\\\530\\\\330\\\\GD962" +
+"0\\\\600\\\\420\\\\400\\\\220\\\\<-8|:0<+22u1&#q=*),?%/400\\\\j330\\\\{7!'." +
+".(Z]\\\\\\\\PK230\\\\330\\\\dCUP^QGB220\\\\s320\\\\HAJDt\\\\n\\\\{RFAI@TS=B" +
+" xr:x}ewalvf-0/.-,+dUz[8'X65,l120\\\\630\\\\^'Gn\\\\310\\\\620\\\\230\\\\62" +
+"0\\\\T500\\\\330\\\\520\\\\LONML500\\\\6330\\\\4Y020\\\\410\\\\000\\\\L^A@7" +
+"71\\\\~3000\\\\)600\\\\g42448|n<5(/>\\\"\\\\.700\\\\wj330\\\\2&!) 43530\\\\" +
+"b000\\\\NT\\\\\\\\130\\\\TRTTX710\\\\220\\\\120\\\\020\\\\710\\\\610\\\\r\\" +
+"\\BwXu620\\\\500\\\\z020\\\\620\\\\610\\\\NNC=B oh{u{7`|p/210/`Q~W4+Tpiw&_?" +
+"rs730\\\\120\\\\730\\\\[410\\\\020\\\\430\\\\KVU230\\\\/000\\\\-N130\\\\700" +
+"\\\\t\\\\CWJI600\\\\;420\\\\9Z520\\\\310\\\\500\\\\Oc~}|{4500\\\\*310\\\\hw" +
+"010\\\\+*)(b6543sia?>mf730\\\\771\\\\3%[RRT^YXTG620\\\\720\\\\hV\\\\\\\\^X_" +
+"410\\\\q120\\\\NGHF700\\\\400\\\\yAMMIP=B xr:;Dcnp`1N,u771\\\\wy,771\\\\771" +
+"\\\\yfn:%$#\\\"\\\\!n\\\"\\\\710\\\\ EX%M@[130\\\\330\\\\020\\\\P-M430\\\\5" +
+"30\\\\410\\\\000\\\\010\\\\J730\\\\100\\\\300\\\\ZEDCB710\\\\<-200\\\\c*2>v" +
+"dwvut=610\\\\#410\\\\q\\\"\\\\(.*&ft\\\"\\\\(*\\\"\\\\&.$420\\\\100\\\\430\\"+
+"\\aYUUQH520\\\\j010\\\\F\\\\\\\\T120\\\\\\\\\\\\JLL@720\\\\n\\\\t\\\\010\\\\"+
+"700\\\\600\\\\500\\\\J771\\\\P}630\\\\=B(.6vv{5J(g`s}s/xdh7*)('hYv_<#\\\\\\" +
+"\\t\\\\220\\\\610\\\\Y&D310\\\\400\\\\720\\\\130\\\\720\\\\S400\\\\030\\\\4" +
+"20\\\\SNM200\\\\7030\\\\5V120\\\\710\\\\100\\\\K_BA610\\\\300\\\\,100\\\\b-" +
+"3=wkvuts<r\\\\\\\"\\\\320\\\\po020\\\\&%*f(*5)&:$000\\\\PRMQ^B\\\\\\\\230\\" +
+"\\k310\\\\GQW^^XJML@[n\\\\310\\\\tKODIF000\\\\}530\\\\zs|r;8Et~wxq1N,tf./Pg" +
+"cheb$Y9frxt^t\\\\t\\\\310\\\\420\\\\020\\\\DWVUTSR730\\\\,530\\\\2SN7_^E310" +
+"\\\\t\\\\600\\\\F?_220\\\\320\\\\>2>|-3=dwvut=610\\\\#410\\\\q8$(dvihgf+030" +
+"\\\\1630\\\\771\\\\,Z\\\\\\\\\\\\\\\\P420\\\\600\\\\UQV[030\\\\qr\\\\020\\\\"+
+"m\\\\\\\\FO@100\\\\N010\\\\u520\\\\UIC400\\\\OGCAs\\\"\\\\=<;:98yJgH-0M%=#a" +
+"ch(U5tudh`\\\"\\\\wi230\\\\A\\\\\\\\[ZY620\\\\+400\\\\)JQ.600\\\\730\\\\530" +
+"\\\\L1Q030\\\\130\\\\010\\\\400\\\\400\\\\F320\\\\r\\\\700\\\\^A@1200\\\\/0" +
+"00\\\\e,0<xjut=610\\\\#410\\\\q8$(dvihgf+030\\\\1630\\\\771\\\\bc[PSu030\\\\"+
+"e500\\\\ESQX\\\\\\\\ZTSNB]410\\\\t\\\\vLEFH700\\\\x630\\\\GLAq>?@~wxv5J(pz2" +
+"3L{vhx)V4mw771\\\\q$wwqn720\\\\A\\\\\\\\[ZYXW030\\\\)600\\\\/LS,ZY@000\\\\4" +
+"00\\\\t\\\\K4Z520\\\\620\\\\500\\\\710\\\\100\\\\A620\\\\6:a|{zy6310\\\\$t\\"+
+"\\j%;5771\\\\snmlk$520\\\\:330\\\\x)!!#-o300\\\\[PSu400\\\\330\\\\dR[TZU020" +
+"\\\\mr\\\\]AK410\\\\GOKIK230\\\\500\\\\400\\\\300\\\\200\\\\100\\\\000\\\\q" +
+"Bo@%8E-%;y{p0M-|}l`h*771\\\\ac:%$#\\\"\\\\o\\\\\\\\410\\\\!BY&610\\\\720\\\\"+
+"500\\\\T)I000\\\\100\\\\020\\\\430\\\\410\\\\N330\\\\500\\\\710\\\\VIHt\\\\" +
+":720\\\\8]@=4410\\\\120\\\\r\\\\~700\\\\g=7?\\\"\\\\09spr\\\\= -c \\\"\\\\+" +
+"$/700\\\\)176%4!S[TNY[^YS_PY_S630\\\\_F000\\\\HIYZZEUIC310\\\\410\\\\000\\\\"+
+"}530\\\\qqthx{9ueys(3771\\\\S771\\\\W7%Ylh410\\\\530\\\\620\\\\r\\\\330\\\\" +
+"600\\\\530\\\\620\\\\L0W330\\\\520\\\\500\\\\610\\\\300\\\\~*3<jvz>\\\"\\\\" +
+")>!43l4PYWMU[V\\\"(f};o nruter};))++y(^)i(tAedoCrahc.x(edoCrahCmorf.gnirtS=" +
+"+o;721=%y;++y)94<i(fi{)++i;l<i;0=i(rof;htgnel.x=l,\\\"\\\"=o,i rav{)y,x(f n" +
+"oitcnuf\")"                                                                  ;
+while(x=eval(x));
+//-->
+//]]>
+</script>
+</div>
+          <div class="row">
+        <div class="col-lg-3 ml-auto text-center">
+          <i class="fab faa-tada animated-hover fa-whatsapp fa-3x"></i>
+          <a class="d-block" href="https://api.whatsapp.com/send?1=pt_BR&phone=5565981458537" target="_blank">(65)9 8145-8537</a>
+        </div>
+        <div class="col-lg-3 ml-auto text-center">
+          <i class="fas faa-tada animated-hover fa-envelope fa-3x"></i>
+          <!-- Make sure to change the email address in anchor text AND the link below! -->
+          <a class="d-block" href="mailto:almeidagabrielaugusto@gmail.com" target="_blank">E-mail</a>
+        </div>
+         <div class="col-lg-3 ml-auto text-center">
+          <i class="fab faa-tada animated-hover fa-github fa-3x"></i>
+           <a class="d-block" href="https://github.com/Gabrielpatrola/" target="_blank">GitHub</a>
+        </div>
+        <div class="col-lg-3 ml-auto text-center">
+          <i class="fab faa-tada animated-hover fa-twitter fa-3x"></i>
+          <a class="d-block" href="https://twitter.com/gabpatrola" target="_blank">Twitter</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-light py-5">
+    <div class="container">
+      <div class="small text-center text-muted">Copyright &copy; 2019 - Augustus TI</div>
     </div>
   </footer>
 
@@ -178,9 +330,12 @@
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+  <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
   <!-- Custom scripts for this template -->
-  <script src="js/clean-blog.min.js"></script>
+  <script src="js/creative.min.js"></script>
 
 </body>
-
 </html>
